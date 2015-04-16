@@ -78,7 +78,7 @@ We can see the app_canary.js running on Canary server i.e http://52.5.160.173:50
 
 ![Alt text] [img11]
 
-### 5. CAnary Analysis
+### 5. Canary Analysis
 
 We use the app to monitor CPU and memory utilization on the canary server periodically. This app runs on http://52.5.160.173:3000/. The default app running here is the production app i.e. app.js.
 
