@@ -26,7 +26,7 @@ We use a template file to configure the EC2 instance that CloudFormation creates
 
 On Jenkins, we use the **"Publish over SSH"** plugin to SSH into our EC2 instance to carry out our pre and post build actions.
 
-![Alt text] [img2] 
+![Alt text] [img22] 
 
 In the pre-build step, we SSH into the EC2 instance and set the commands to install nodejs as follows :
 
@@ -93,7 +93,7 @@ The threshold to kill the canary has been set to 90 for the CPU utilization. The
 ![Alt text] [img16]
 
 [img1]: ./Images/cloud_form_create.PNG 
-[img2]: ./Images/publish_ssh.PNG
+[img22]: ./Images/publish_ssh.PNG
 [img3]: ./Images/pre_build.PNG
 [img4]: ./Images/post_build.PNG
 [img5]: ./Images/nodejs_conop.PNG
