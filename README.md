@@ -11,7 +11,7 @@ Satvik Andi (sandi)
 
 Code housing Canary and Deployment source files : *https://github.com/satvikandi/Hello.git*
 
-Code having the javascript file for Monitoring :  *https://github.com/satvikandi/Hello.git*
+Code having the javascript file for Monitoring :  *https://github.com/satvikandi/Monitor.git*
 
 
 ## Steps to Deploy :
@@ -43,7 +43,7 @@ In the Jenkins post-build actions, we set the commands to install the dependenci
 
 ![Alt text] [img4]
 
-The dependencies are resolved using the npm install command :
+The dependencies get resolved from package.json using the 'npm install' command :
 
 ![Alt text] [img6]
 
