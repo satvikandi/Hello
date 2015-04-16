@@ -56,7 +56,7 @@ Now, app.js has been deployed on the production server.
 
 ### 3. Remote Deployment
 
-We have 2 remote EC2 insatnces running that we can SSH into :
+We have a remote EC2 instance running that we can SSH into :
 
 ![Alt text] [img9]
 
@@ -70,23 +70,23 @@ For our Canary release, as a Jenkins pre-build step, we have configured another 
 
 ![Alt text] [img12]
 
-The build ensures the app_canary is deployed on the canary server
+The build ensures the app_canary.js is deployed on the canary server.
 
 ![Alt text] [img8]
 
-We can see the app_canary.js running on Canary server i.e http://52.5.160.173:5000/
+We can see the app_canary.js running on Canary server i.e http://52.5.160.173:5000/.
 
 ![Alt text] [img11]
 
 ### 5. Canary Analysis
 
-We use the app to monitor CPU and memory utilization on the canary server periodically. This app runs on http://52.5.160.173:3000/. The default app running here is the production app i.e. app.js.
+We run the monitoring app main.js to monitor CPU and memory utilization on the canary server periodically. This is used to view the deployed on production accessible via http://52.5.160.173:3000/.
 
 ![Alt text] [img13]
 
 ![Alt text] [img14]
 
-The threshold to kill the canary has been set to 90 for the CPU utilization. The canary is killed once this threshold is crossed.
+The threshold to kill the canary, that runs on canary_server's port 5000, has been set to 90 to match against the current CPU utilization. The canary is killed once this threshold is crossed.
 
 ![Alt text] [img15]
 
