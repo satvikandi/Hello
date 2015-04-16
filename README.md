@@ -93,7 +93,7 @@ The threshold to kill the canary has been set to 90 for the CPU utilization. The
 ![Alt text] [img16]
 
 [img1]: ./Images/cloud_form_create.PNG 
-[img22]: ./Images/publish_ssh.PNG
+[img22]: ./Images/publish_ssh1.PNG
 [img3]: ./Images/pre_build.PNG
 [img4]: ./Images/post_build.PNG
 [img5]: ./Images/nodejs_conop.PNG
