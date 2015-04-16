@@ -80,7 +80,7 @@ We can see the app_canary.js running on Canary server i.e http://52.5.160.173:50
 
 ### 5. Canary Analysis
 
-We run the monitoring app main.js to monitor CPU and memory utilization on the canary server periodically. This is used to view the deployed on production accessible via http://52.5.160.173:3000/.
+We run the monitoring app main.js to monitor CPU and memory utilization on the canary server periodically. Thie main.js is run to view the app deployed on production and is accessible via http://52.5.160.173:3000/.
 
 ![Alt text] [img13]
 
