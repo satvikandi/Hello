@@ -70,7 +70,7 @@ For our Canary release, as a Jenkins pre-build step, we have configured another 
 
 ![Alt text] [img12]
 
-The build ensures the app_canary.js is deployed on the canary server.
+The build ensures **the app_canary.js** is deployed on the canary server.
 
 ![Alt text] [img8]
 
