@@ -86,7 +86,7 @@ We run the monitoring app main.js to monitor CPU and memory utilization on the c
 
 ![Alt text] [img14]
 
-The threshold to kill the canary, that runs on canary_server's port 5000, has been set to 90 to match against the current CPU utilization. The canary is killed once this threshold is crossed.
+The threshold to kill the canary, that runs on canary_server's port 5000, has been set to 90 to match against the current CPU utilization. The '*forever stop*' command is used to kill the canary based on threshold. The canary is killed once this threshold is crossed.
 
 ![Alt text] [img15]
 
