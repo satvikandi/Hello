@@ -47,7 +47,7 @@ The dependencies are resolved using the npm install command :
 
 ![Alt text] [img6]
 
-The application is run using the *'forever start command'*
+The application is run using the *'forever start'* command
 
 ![Alt text] [img7]
 
